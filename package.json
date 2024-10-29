@@ -53,6 +53,7 @@
     "dev": "vite --open --force",
     "dev:rtl": "VITE_RTL=rtl vite --open --force",
     "dev:jmapp": "VITE_APP_PROJECT_ID=jmapp vite --open --force",
+    "dev:jrkf": "VITE_APP_PROJECT_ID=jrkf vite --open --force",
     "dev:theme": "npm run generate:themes-dev && npm run checked && vite  --force --config vite.config.theme.ts",
     "replace:scss": "node scripts/replace-scss-alias.js",
     "build:loader-style": "node scripts/generate-loader-style.js",
